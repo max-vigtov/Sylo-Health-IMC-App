@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E149A4272C4741680016E2CC /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149A4262C4741680016E2CC /* ToggleButton.swift */; };
+		E149A42A2C4742020016E2CC /* InformationText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149A4292C4742020016E2CC /* InformationText.swift */; };
+		E149A42C2C47426D0016E2CC /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149A42B2C47426D0016E2CC /* TitleText.swift */; };
+		E149A42E2C4742D60016E2CC /* HeightCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149A42D2C4742D60016E2CC /* HeightCalculator.swift */; };
+		E149A4302C47484B0016E2CC /* CounterComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149A42F2C47484B0016E2CC /* CounterComponent.swift */; };
 		E1E8BD1F2C45C2EB008209BB /* Sylo_Health_IMC_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E8BD1E2C45C2EB008209BB /* Sylo_Health_IMC_AppApp.swift */; };
 		E1E8BD212C45C2EB008209BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E8BD202C45C2EB008209BB /* ContentView.swift */; };
 		E1E8BD232C45C2EC008209BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E8BD222C45C2EC008209BB /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E149A4262C4741680016E2CC /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		E149A4292C4742020016E2CC /* InformationText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationText.swift; sourceTree = "<group>"; };
+		E149A42B2C47426D0016E2CC /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
+		E149A42D2C4742D60016E2CC /* HeightCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightCalculator.swift; sourceTree = "<group>"; };
+		E149A42F2C47484B0016E2CC /* CounterComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterComponent.swift; sourceTree = "<group>"; };
 		E1E8BD1B2C45C2EB008209BB /* Sylo Health IMC App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sylo Health IMC App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E8BD1E2C45C2EB008209BB /* Sylo_Health_IMC_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sylo_Health_IMC_AppApp.swift; sourceTree = "<group>"; };
 		E1E8BD202C45C2EB008209BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E149A4252C47413D0016E2CC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E149A4282C4741E20016E2CC /* Titles */,
+				E149A4262C4741680016E2CC /* ToggleButton.swift */,
+				E149A42D2C4742D60016E2CC /* HeightCalculator.swift */,
+				E149A42F2C47484B0016E2CC /* CounterComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E149A4282C4741E20016E2CC /* Titles */ = {
+			isa = PBXGroup;
+			children = (
+				E149A4292C4742020016E2CC /* InformationText.swift */,
+				E149A42B2C47426D0016E2CC /* TitleText.swift */,
+			);
+			path = Titles;
+			sourceTree = "<group>";
+		};
 		E1E8BD122C45C2EB008209BB = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +81,7 @@
 		E1E8BD1D2C45C2EB008209BB /* Sylo Health IMC App */ = {
 			isa = PBXGroup;
 			children = (
+				E149A4252C47413D0016E2CC /* Components */,
 				E1E8BD1E2C45C2EB008209BB /* Sylo_Health_IMC_AppApp.swift */,
 				E1E8BD202C45C2EB008209BB /* ContentView.swift */,
 				E1E8BD222C45C2EC008209BB /* Assets.xcassets */,
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1E8BD212C45C2EB008209BB /* ContentView.swift in Sources */,
+				E149A4272C4741680016E2CC /* ToggleButton.swift in Sources */,
+				E149A42E2C4742D60016E2CC /* HeightCalculator.swift in Sources */,
 				E1E8BD1F2C45C2EB008209BB /* Sylo_Health_IMC_AppApp.swift in Sources */,
+				E149A4302C47484B0016E2CC /* CounterComponent.swift in Sources */,
+				E149A42A2C4742020016E2CC /* InformationText.swift in Sources */,
+				E149A42C2C47426D0016E2CC /* TitleText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
